@@ -2,7 +2,7 @@
 
 namespace CodeWithKertic
 {
-    public class QuestionOne
+    public static class QuestionOne
     {
         public static void Ask()
         {

@@ -2,7 +2,7 @@
 
 namespace CodeWithKertic
 {
-    public class IncorrectAnswer
+    public static class IncorrectAnswer
     {
         public static void TryAgain()
         {

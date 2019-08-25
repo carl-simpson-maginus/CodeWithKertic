@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CodeWithKertic
 {
-    public class GameOver
+    public static class GameOver
     {
         public static void GoodBye()
         {

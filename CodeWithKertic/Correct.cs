@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CodeWithKertic
 {
-    public class CorrectAnswer
+    public static class CorrectAnswer
     {
         public static void Achieved()
         {
