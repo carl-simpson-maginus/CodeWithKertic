@@ -25,8 +25,11 @@ namespace CodeWithKertic
             }
             else
             {
+                Test.Summat();
                 IncorrectAnswer.TryAgain();
             }
+            
+
         }
 
     }
