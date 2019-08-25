@@ -15,8 +15,8 @@ namespace CodeWithKertic
 
             /* Ask them to solve a math question (simple is better here) */
 
-            //QuestionOne.Ask();
-            RandomNumber.GenerateNumber();
+            QuestionOne.Ask();
+            //RandomNumber.GenerateNumber();
 
 
         }

@@ -13,7 +13,7 @@ namespace CodeWithKertic
             Console.WriteLine("Try Again  ?");
             Console.WriteLine("Enter Y or N");
 
-            userInput = Console.ReadLine();
+            userInput = Console.ReadLine().ToUpper();
 
             /* If they want to try again, repeat the above steps */
             if (userInput == "Y")

@@ -8,4 +8,7 @@
   <ItemGroup>
     <None Remove="answer.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="QuestionExtra.cs" />
+  </ItemGroup>
 </Project>
