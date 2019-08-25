@@ -17,8 +17,6 @@ namespace CodeWithKertic
 
             QuestionOne.Ask();
             //RandomNumber.GenerateNumber();
-
-
         }
     }
 }

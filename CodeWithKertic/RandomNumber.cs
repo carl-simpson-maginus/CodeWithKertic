@@ -6,7 +6,7 @@ namespace CodeWithKertic
         public static void GenerateNumber()
         {
             string Response;
-            int count = 0; 
+            //int count = 0; 
 
             Random randm = new Random();
             int rand_dice = randm.Next(1, 7);

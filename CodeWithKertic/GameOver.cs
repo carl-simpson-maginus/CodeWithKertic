@@ -5,7 +5,7 @@ namespace CodeWithKertic
     {
         public static void GoodBye()
         {
-            Console.WriteLine("Ok bye!!!");
+            Console.WriteLine("Ok Thanks for playing -- Goodbye!!!");
         }
     }
 }
