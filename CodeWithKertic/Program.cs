@@ -14,8 +14,9 @@ namespace CodeWithKertic
             Console.WriteLine("Hello " + name + "!!!");
 
             /* Ask them to solve a math question (simple is better here) */
-
-            QuestionOne.Ask();
+            int count = 0;
+            
+            QuestionOne.Ask(count);
             //RandomNumber.GenerateNumber();
         }
     }

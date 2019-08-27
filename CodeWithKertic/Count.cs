@@ -4,7 +4,6 @@ namespace CodeWithKertic
     public class Test
     {
 
-        int count = 0;
 
         public static void Summat()
         {
@@ -17,8 +16,7 @@ namespace CodeWithKertic
         public void doMethod()
         {
 
-            count++;
-            Console.WriteLine("attempts = " + count);
+            
         }
     }
 }

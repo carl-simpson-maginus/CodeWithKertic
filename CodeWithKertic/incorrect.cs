@@ -4,7 +4,7 @@ namespace CodeWithKertic
 {
     public static class IncorrectAnswer
     {
-        public static void TryAgain()
+        public static void TryAgain(int count)
         {
             string userInput;
             
@@ -18,7 +18,7 @@ namespace CodeWithKertic
             /* If they want to try again, repeat the above steps */
             if (userInput == "Y")
             {
-                QuestionOne.Ask();
+                QuestionOne.Ask(count);
             }
             else
             {

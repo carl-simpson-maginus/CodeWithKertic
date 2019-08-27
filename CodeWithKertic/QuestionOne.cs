@@ -4,11 +4,12 @@ namespace CodeWithKertic
 {
     public static class QuestionOne
     {
-        public static void Ask()
+        public static void Ask(int count)
         {
             string userInput;
             string stringVal;
             int intVal;
+            count++;
 
             Console.WriteLine("what is 2 + 2? ?");
 
@@ -26,7 +27,9 @@ namespace CodeWithKertic
             else
             {
                 Test.Summat();
-                IncorrectAnswer.TryAgain();
+               
+                Console.WriteLine("attempts = " + count);
+                IncorrectAnswer.TryAgain(count);
             }
             
 
