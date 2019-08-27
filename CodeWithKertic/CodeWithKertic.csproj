@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Remove="QuestionExtra.cs" />
     <Compile Remove="RandomNumber.cs" />
+    <Compile Remove="Count.cs" />
   </ItemGroup>
 </Project>
